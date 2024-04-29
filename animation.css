@@ -1,0 +1,47 @@
+.flier2 {
+    pointer-events: none;
+}
+.flier2 > * {
+    /* adjust animation duraton to change the element's speed */
+       animation:flyy 50s linear infinite;
+       pointer-events: none !important;
+       top: 0;
+       left:0;
+       transform: translateX(-120%) translateY(120vh) rotateZ(0);
+       position: fixed;
+       animation-delay: 0s;
+       z-index: -10;
+}
+/* keyframe values control where the element will begin
+and end its trajectory across.each rule
+represent a path the element follows across the screen, */
+
+@keyframes flyy{
+
+    98.001%,100%{
+              
+
+transform: translateX(-200%) translateY(100vh)rotateZ(62deg)            
+}
+
+15%,15.001% {
+    transform: translateX (100vw) translateY(-100%) rotateZ(60deg)
+}
+
+40%,40.001% {
+    transform: translateX(-200%) translateY(3vh) rotateZ(-68deg) 
+}
+
+40.001%,43% {
+    transform: translateX(-200%) translateY(-100%) rotateZ(-68deg)
+}
+65%,65.001%{
+    transform: translateX(100vw) translateY(50vw) rotateZ(60deg)
+}
+65.001%,68% {
+    transform: translateX(20vw) translateY(-200%) rotateZ(68deg)
+}
+95%,95% {
+    transform: translateX(10vw) translateY(100vw) rotateZ(60deg)
+}
+}
