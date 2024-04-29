@@ -1,0 +1,17 @@
+.thv5{
+    display: grid;
+    grid-template-columns: 20fr 15fr 15fr 35fr 21fr 21fr 25fr 26fr 25fr 20fr 20fr 25fr 25fr;
+
+}
+
+.thv3{
+    display: grid;
+    grid-template-columns: 20fr 30fr;
+
+}
+.row{
+
+    width:"50%";
+    height:auto;
+
+}
